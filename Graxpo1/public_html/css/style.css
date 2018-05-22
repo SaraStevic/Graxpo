@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 15px;
 }
 
+.dash-white:after{
+    background: #fff;
+}
+
 .dash.text-center:after{
     margin: 15px auto 0;
 }
@@ -154,4 +158,13 @@ header{
     color: white;
     font-size: 40px;
     transition: 0.5s ease;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    padding: 100px 0px;
+    background-size: cover;
+    background-position: center;
 }
